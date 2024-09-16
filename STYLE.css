@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    background: white;
+    width:100%;
+}
+div.container{
+    background:url(background2.jpg);
+    background-repeat: no-repeat;
+    width: 1100px;
+    height:70px;
+    transform: scale(1.5) rotate(180deg);
+    margin-left:100px;
+    z-index: 1;
+    position: absolute;
+}
+div.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+    margin-top: -20px;
+    z-index: 5;
+    position: absolute;
+    width:100%;
+}
+nav{
+    width:500px;
+    margin-left: 40px;
+}
+ul{
+    display: flex;
+    gap:30px;
+}
+ul li{
+    display: inline;
+}
+div.dance{
+    width: 100%;
+    height:100vh;
+}
+div.dance img{
+    width:100%;
+    height:100vh;
+    margin-top: -30px;
+}
+div.dance div.info{
+    width: 200px;
+    margin-left:55%;
+    margin-top:-33%;
+    transform: scale(1.3);
+}
+div.info h1{
+    font-size:66px;
+    font-family:arial;
+}
+div.info p{
+    font-size: 20px;
+    width:300px;
+}
+div.info button{
+    margin-left:20px;
+    margin-top:20px;
+    width:140px;
+    height:30px;
+    background: brown;
+    color:white;
+    border-radius: 30px;
+}
+div.info button:hover{
+    background-color: rgb(197, 43, 43);
+}
+div.team{
+    width:100%;
+    height:90vh;
+    margin-top: -50px;
+    background-color: rgba(177, 114, 62, 0.753);
+}
+div.header{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+}
+div.introduce{
+    text-align: center;
+    width:500px;
+    margin-left:50%;
+    transform: translate(-50%,70%);
+    font-family: arial;
+}
+div.introduce p{
+    margin-top: 15px;
+}
+div.members{
+    width: 100%;
+    background-color: white;
+    height:360px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+div.member{
+    text-align: center;
+}
+div.member h3{
+    font-size: 30px;
+}
+div.member img{
+    border-radius: 50%;
+}
+
+div.intro{
+    width:100%;
+    height:90vh;
+    background: white;
+}
+.intro .danceimage{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    margin-top:80px;
+    margin-left: 230px;
+    background-image: url(dance2.jpg);
+    background-size: cover;
+}
+.intro .para{
+    text-align: left;
+    width: 400px;
+    margin-left:730px;
+    margin-top: -240px;
+}
+.para h1{
+    font-size: 50px;
+    font-family: arial;
+}
+.para p{
+    font-size:25px;
+    margin-top: 10px;
+}
+button.btn{
+    background-color: brown;
+    width:100px;
+    height:30px;
+    margin-top: 10px;
+    border-radius: 30px;
+    transition: 1s;
+}
+button.btn:hover{
+    background-color:grey;
+}
+.photo{
+
+}
+.photo .back{
+    background-image: url(back3.jpg);
+    width:120%;
+    height:500px;
+    background-size: cover;
+    margin-left:-100px;
+    margin-top: 50px;
+}
+.photo .photo2{
+    background-image: url(dancer3.jpg);
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-left:55%;
+    margin-top:-25%;
+}
+.photo .info{
+    text-align:left;
+    width:500px;
+    line-height: 25px;
+    margin-left:10%;
+    margin-top:-260px;
+}
+.photo .info h1{
+    font-size:30px;
+}
+.photo .info p{
+    font-size:20px;
+    margin-top:20px;
+}
+.carousel{
+    width:100%;
+    height:80vh;
+    background-color: peachpuff;
+    margin-top: 300px;
+    text-align: center;
+}
+.carousel .information{
+    width:400px;
+    margin-left:50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    position: absolute;
+}
+.carousel .information p{
+    margin-top:10px;
+}
+.carousel .back4{
+    background: url(back4.jpg);
+    width:100%;
+    height:50vh;
+    background-size: cover;
+    margin-top:150px;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back4 .stats{
+    width:300px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.back4 .stats h1{
+    font-size: 70px;
+}
+.back4 .stats h4{
+    font-size: 25px;
+}
+
+.quote{
+    background:url(back6.jpg);
+    width:100%;
+    height:70vh;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote::before{
+    content:'';
+    width:100%;
+    height: 70vh;
+    position: absolute;
+    background-color: rgb(83, 107, 36);
+    opacity: .3;
+}
+.quote p{
+    font-size: 35px;
+    width: 700px;
+    color:white;
+}
+.quote h3{
+    margin-top: 20px;
+    font-size: 30px;
+    color:white;
+}
+footer{
+    width:100%;
+    height:60vh;
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:100px;
+    line-height: 30px;
+}
+footer .you{
+    width:400px;
+}
+footer .you .media{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:200px;
+}
+footer .you .media .icons{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: white;
+}
+table{
+    text-align:left;
+}
+table tr td,table tr th{
+    width:200px;
+}
